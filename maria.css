@@ -1,18 +1,53 @@
-h1{
-color: red;
+.cabecalho{
+    background-color: rgb(223, 133, 15);
 }
-h2{
-    color: orange;
+
+.inferior{
+    background-color: rgb(223, 133, 15);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
-h3{
-    color: yellow;
+
+.cabecalho2{
+    background-color: rgb(223, 133, 15);
 }
-h4{
-    color: green;
+
+.cabecalho3{
+    background-color: rgb(223, 133, 15);
 }
-h5{
-    color: blue;
+
+.cabecalho4{
+    background-color: rgb(223, 133, 15);
 }
-h6{
-    color: purple;
+.quadros{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 35px;
+    background-color: rgb(235, 179, 75);
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 270px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(113, 74, 0);
+}
+
+.nomes{
+    background-color: 
 }
