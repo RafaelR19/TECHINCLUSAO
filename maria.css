@@ -1,12 +1,22 @@
 .cabecalho{
-    background-color: rgb(223, 133, 15);
-}
+    background-color: rgb(204, 117, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    text-shadow: 7px 6px 7px rgb(134, 90, 8);
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 550;
+}   
 
 .inferior{
     background-color: rgb(223, 133, 15);
     width: 100%;
+    height: 30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .cabecalho2{
@@ -22,17 +32,17 @@
 }
 .quadros{
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-    border-radius
+    justify-content: space-between;
+    margin: 100px;
 }
 
 img{
     width: 200px;
     height: 200px;
     border-radius: 200px;
-    padding: 35px;
-    background-color: rgb(235, 179, 75);
+    padding: 25px;
+    background-color:rgb(207, 143, 15);
+    
 }
 
 .quadro{
@@ -40,14 +50,32 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: orange;
+    background-color: rgb(223, 155, 30);
     width: 270px;
-    height: 450px;
+    height: 390px;
     padding: 20px;
     border-radius: 30px;
-    border: 2px solid rgb(113, 74, 0);
+    border: 2px solid rgb(156, 111, 29);
+    box-shadow: 5px 3px 30px;
+    font-size: 30px;
 }
 
 .nomes{
     background-color: 
+}
+
+.button_quadros{
+    background-color: rgb(245, 153, 47);
+    border: 3px solid rgb(162, 111, 16);
+    box-shadow: 3px 3px 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
+h6{
+    font-size: 20px;
 }
