@@ -1,22 +1,47 @@
 .cabecalho{
-    background-color: rgb(204, 117, 3);
+    background-color: rgb(7, 11, 120);
     display: flex;
     flex-direction: column;
-    height: 100px;
-    text-shadow: 7px 6px 7px rgb(134, 90, 8);
+    align-items: center;
+    height: 120px;
+    text-shadow: 7px 6px 7px rgb(5, 11, 94);
     padding: 10px;
-    font-size: 50px;
+    font-size: 51px;
     font-weight: 550;
 }   
 
+h1{
+    color: white;
+    transition: 1s;
+}
+
+h1:hover{
+    font-size: 70px;
+    cursor: pointer;
+}
+
+h6{
+    color: rgb(240, 202, 10);
+    font-size: 20px;
+}
+
 .inferior{
-    background-color: rgb(223, 133, 15);
+    background-color: rgb(240, 202, 10);
     width: 100%;
     height: 30px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 5px 10px 30px rgb(9, 2, 52);
+}
+
+.cblh_button{
+    color: rgb(251, 251, 251);
+    background-color: rgb(240, 202, 10);
+    border: 0px solid rgb(240, 202, 10);
+    font-weight: 550;
+    font-size: 20px;
+
 }
 
 .cabecalho2{
@@ -36,12 +61,12 @@
     margin: 100px;
 }
 
-img{
+.img_quadro{
     width: 200px;
     height: 200px;
     border-radius: 200px;
     padding: 25px;
-    background-color:rgb(207, 143, 15);
+    background-color:rgb(216, 160, 47);
     
 }
 
@@ -50,12 +75,12 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(223, 155, 30);
+    background-color: rgb(202, 148, 48);
     width: 270px;
     height: 390px;
     padding: 15px;
     border-radius: 30px;
-    border: 2px solid rgb(156, 111, 29);
+    border: 2px solid rgb(214, 159, 56);
     box-shadow: 2px 5px 30px;
     font-size: 30px;
 }
@@ -65,19 +90,15 @@ img{
 }
 
 .button_quadros{
-    background-color: rgb(245, 153, 47);
-    border: 3px solid rgb(162, 111, 16);
+    background-color: rgb(230, 130, 15);
+    border: 3px solid rgb(223, 133, 15);
     box-shadow: 2px 5px 15px;
     border-radius: 15px;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 button:hover{
     transform: scale(1.07);
-}
-
-h6{
-    font-size: 20px;
 }
 
 .text{
@@ -92,7 +113,10 @@ font-size: 25px;
     background-color: orange;
     border-radius: 50px;
     padding: 20px;
-    box-shadow: 5px 10px 20px black;
+    box-shadow: 5px 10px 20px rgb(59, 39, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .introdução2{
@@ -104,5 +128,5 @@ font-size: 25px;
     background-color: orange;
     border-radius: 50px;
     padding: 10px;
-    box-shadow: 5px 10px 20px black;
+    box-shadow: 5px 10px 20px rgb(59, 39, 1);
 }
